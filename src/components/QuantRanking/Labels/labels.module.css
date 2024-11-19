@@ -1,0 +1,7 @@
+.cell {
+    border-bottom: solid #c9c9c9 1px;
+}
+
+.cell:nth-child(5) {
+    border-bottom: solid transparent 1px;
+}

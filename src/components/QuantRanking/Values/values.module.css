@@ -1,0 +1,13 @@
+.cell {
+    color: #4c4cf1;
+}
+
+.cell:not(:last-child) {
+    border-bottom: solid #c9c9c9 1px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+

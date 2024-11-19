@@ -1,0 +1,13 @@
+.toast {
+    margin: 0;
+    width: 210px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f9b0b0;
+    border-radius: 6px;
+    border: solid #fd8e8e 1px;
+}
+
+.toast:focus {
+    outline: none;
+}
