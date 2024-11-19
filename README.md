@@ -1,20 +1,22 @@
-Install libs: npm i Run application: npm run dev Run tests: npm run test
+Install libs: 'npm i'.
+Run application: 'npm run dev'. 
+Run tests: 'npm run test'.
 
 API There is a mocked API and origin API - check 'fetcher' function and comments
 in this file. As the origin API is almost always down we have mimicked versions with
 timeouts and fake HTTP fails (fetcher file).
 
 To change timeouts (mocked API) please check the file 'mockResp'. Here you can also
-change values
+change values.
 
 NOTE - to change a number of elements in cards
   - apply a change in 'config'
-  - apply change in 'mockResp'
+  - apply a change in 'mockResp'
   - apply a change in CSS template for card(s)
-that's the downside of such approach
+that's the downside of such approach.
 
 There are no human-readable labels in resp. That is why it was added in the config
-file 'config.ts'. To parse it from id - usually turns into a pain in the neck.
+file 'config.ts'. To parse labels from 'id' - usually turns into a pain in the neck.
 
 As we have different orders in different responses we solve it using the same 'config.ts' with one source of truth.
 
