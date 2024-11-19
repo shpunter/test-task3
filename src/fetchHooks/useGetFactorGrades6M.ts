@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { FACTOR_GRADES_6M_URL } from "../api";
 import { fetcher } from "./fetcher";
+import { FactorGrades6MResp } from "./types";
 
 export const useGetFactorGrades6M = () => {
     return useQuery<FactorGrades6MResp>({
@@ -9,8 +10,4 @@ export const useGetFactorGrades6M = () => {
         retry: false,
         refetchOnWindowFocus: false,
     });
-};
-
-type FactorGrades6MResp = {
-    data: [string, string][];
 };
