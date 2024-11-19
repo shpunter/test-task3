@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    font-weight: 600;
+    color: gray;
+
+    margin: 10px auto;
+    border: solid 1px #e3dddd;
+    border-radius: 6px;
+    padding: 0 14px 8px 14px;
+    box-sizing: border-box;
+    max-width: 500px;
+}

@@ -1,0 +1,18 @@
+.font {
+    font-size: 14px;
+    color: #717171;
+    font-weight: 500;
+    align-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

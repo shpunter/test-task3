@@ -1,0 +1,3 @@
+.template {
+    grid-template: repeat(5, 36px) / 1fr 2fr;
+}
